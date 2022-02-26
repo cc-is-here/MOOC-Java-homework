@@ -25,10 +25,10 @@ public class Tempera_convert {
 		int C; //摄氏温度
 		int F; //华氏温度
 		Scanner in = new Scanner(System.in);
-		C = in.nextInt();
+		F = in.nextInt();
 		
-		F = (int)((9.0/5)*C + 32);
-		System.out.print(F);
+		C = (int)((F-32)*5/9);
+		System.out.print(C);
 
 	}
 
